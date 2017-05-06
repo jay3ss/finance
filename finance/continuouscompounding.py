@@ -4,7 +4,7 @@ def single_future_payment(p, r, n):
     return p*(exp(r*n))
 
 def single_present_payment(f, r, n):
-    return *(exp(-r*n))
+    return f*(exp(-r*n))
 
 def cash_from_future(f, r, n):
     return f*(exp(r) - 1)/(exp(r*n) - 1)
