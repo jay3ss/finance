@@ -20,3 +20,4 @@ setup(
     long_description=read('README.md'),
     # package_dir = {'': 'finance'},
     # py_modules=['finance'],
+    )
