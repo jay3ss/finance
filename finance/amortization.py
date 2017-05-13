@@ -1,4 +1,4 @@
-from finance import uniformseries as us
+from finance.finance import uniformseries as us
 
 def current_payment(loan, interest, term):
     return us.capital_recovery(loan, interest/12, term)
